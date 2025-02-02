@@ -1,0 +1,54 @@
+{
+  "expo": {
+    "name": "GES 2025",
+    "slug": "ges_app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/ges-CCLfU0UJ.png",
+    "scheme": "myapp",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "GES-2025",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/ges-CCLfU0UJ.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.prabhaskalyan.ges_app"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "image": "https://reg-ges.ecell-iitkgp.org/assets/ges-CCLfU0UJ.png",
+          "imageWidth": 200,
+          "resizeMode": "cover",
+          "backgroundColor": "#ffffff"
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "79eba496-4546-47d3-930a-45d5c97cd604"
+      }
+    }
+  }
+}
